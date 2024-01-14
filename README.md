@@ -6,8 +6,8 @@ Simple but powerful AI Voice assistant using the OpenHermes Mistral 7B model. <b
 Voice input is done by the Google Library for performing speech recognition. <br>
 Voice output is realized by the pyttsx3 library. <br>
 You can interface the large language model by simply start talking. <br>
-The ai assistant output is logged as json into the response_log.txt <br>
-The python script interfaces a local Ollama model running in a virtualized linux envrionment on a Windows host. <br>
+The AI assistant output is logged as json into the response_log.txt <br>
+The python script interfaces a local Ollama model that runs in a virtualized linux envrionment on a Windows host. <br>
 To install the Windows linux virtualization environment and the Ollama model please refer to the following steps: <br>
 Win-R <br>
 cmd <br>
