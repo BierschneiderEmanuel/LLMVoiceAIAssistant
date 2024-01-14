@@ -1,4 +1,6 @@
 # LLMVoiceAIAssistant
+![grafik](https://github.com/BierschneiderEmanuel/LLMVoiceAIAssistant/assets/77926785/aa3587e6-fe28-48aa-ab6e-5043c474283b)
+
 Voice Input Output LLM Ollama OpenHermes Mistral 7B AI Assistant
 Simple but powerful AI Voice assistant using the OpenHermes Mistral 7B model.
 Voice input is done by the Google Library for performing speech recognition.
