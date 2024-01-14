@@ -9,7 +9,8 @@ You can interface the large language model by simply start talking. <br>
 The ai assistant output is logged as json into the response_log.txt <br>
 The python script interfaces a local Ollama model running in a virtualized linux envrionment on a Windows host. <br>
 To install the Windows linux virtualization environment and the Ollama model please refer to the following steps: <br>
-Ctrl-X <br>
+Win-R <br>
+cmd <br>
 wsl.exe --install <br>
 user newUserName pwd newUserNamePassword <br>
 wsl.exe --user root -d ubuntu <br>
@@ -19,5 +20,6 @@ curl https://ollama.ai/install.sh | sh <br>
 ollama run openhermes <br>
 
 To start the voice assistant run the python script: <br>
-Ctrl-X <br>
+Win-R <br>
+cmd <br>
 python voiceAiAssistant.py <br>
