@@ -38,6 +38,12 @@ def generate_stream_json_response(prompt):
                             output_e.write('response', data["response"])
                     else:
                         return full_response.replace('\n', "").replace('\0', '')
+                if len(record)==1:
+                    data = json.loads(record[0].replace('\0', ''))
+                    if "error" in data:
+                        full_response += data["error"]
+                        with output.subobject() as output_e:
+                            output_e.write('error', data["error"])
                 return full_response.replace('\n', "").replace('\0', '')
             except Exception as error:
                 # handle the exception
